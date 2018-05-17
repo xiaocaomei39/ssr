@@ -5,28 +5,10 @@
 # [proxy_list] 代理列表 在1210多行
 # [remote_dns] 远程 DNS 解析 -不加使用本地 DNS
 
-[bypass_all]
+[proxy_all]
 
-[proxy_list]
-(^|\.)\w*porn\w*\..*$
-(^|\.)\w*google\w*\..*$
-(^|\.)\w*yandex\w*\..*$
-(^|\.)\w*pron\w*\..*$
-(^|\.)\w*youtube\w*\..*$
-(^|\.)\w*gmail\w*\..*$
-(^|\.)\w*pica\w*\..*$
-(^|\.)\w*telegram\w*\..*$
-(^|\.)\w*facebook\w*\..*$
-(^|\.)\w*twitter\w*\..*$
-(^|\.)\w*instagram\w*\..*$
-(^|\.)\w*sex\w*\..*$
-(^|\.)\w*fuck\w*\..*$
-(^|\.)\w*tumblr\w*\..*$
-
-# Telegram
-91.108.0.0/16
-109.239.140.0/24
-149.154.160.0/20
+[bypass_list]
+(^|\.)\w*baidu\w*\..*$
 
 
 [outbound_block_list]
