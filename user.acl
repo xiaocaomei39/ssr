@@ -12,6 +12,7 @@
 
 [outbound_block_list]
 # 广告关键词
+(^|\.)\w*wrvdmh\w*\..*$
 (^|\.)\w*admarvel\w*\..*$
 (^|\.)\w*admaster\w*\..*$
 (^|\.)\w*adsage\w*\..*$
